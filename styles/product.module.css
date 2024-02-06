@@ -1,0 +1,321 @@
+.main{
+display: flex;
+width: 768px;
+padding: var(--0, 0px) var(--5, 20px) var(--5, 20px) var(--5, 20px);
+flex-direction: column;
+justify-content: center;
+margin: 10px auto;
+align-items: center;
+gap: var(--0, 0px);
+border-radius: var(--rounded-lg, 8px);
+background: var(--white, #FFF);
+box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.05), 0px 10px 15px -3px rgba(0, 0, 0, 0.10);
+}
+.heading{
+ display: flex;
+padding: var(--4, 16px) var(--0, 0px);
+justify-content: center;
+align-items: center;
+gap: var(--0, 0px);
+align-self: stretch;
+border-bottom: 1px solid var(--gray-200, #E5E7EB);
+}
+.headingtext{
+display: flex;
+padding: var(--0, 0px);
+align-items: center;
+gap: var(--0, 0px);
+flex: 1 0 0;
+align-self: stretch;
+color: var(--gray-900, #111928);
+
+/* text-lg/font-semibold */
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: 150%; /* 27px */
+}
+.form{
+display: flex;
+padding-top: var(--4, 16px);
+flex-direction: column;
+align-items: center;
+gap: var(--4, 16px);
+align-self: stretch;
+}
+.formInput{
+display: flex;
+flex-wrap: wrap;
+gap: var(--4, 16px);
+align-self: stretch;
+flex: 1 1 0;
+}
+.formInputdiv{
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: var(--2, 8px);
+flex: 1 0 0;
+}
+.inputtext{
+ color: var(--gray-900, #111928);
+display: flex;
+/* text-sm/font-medium */
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 150%; /* 21px */
+}
+.arrimg{
+    display: flex;
+width: 144px;
+height: 144px;
+padding: var(--0, 0px);
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: var(--0, 0px);
+
+border-radius: var(--rounded-lg, 8px);
+background: var(--gray-100, #F3F4F6);
+}
+.arrimg1{
+    width: 122px;
+height: 125px;
+flex-shrink: 0;
+}
+.tash{
+    width: var(--5, 20px);
+height: var(--5, 20px);
+position: relative;
+left: -53px;
+bottom: 6.5px;
+cursor: pointer;
+}
+.input1{
+display: flex;
+align-items: center;
+ 
+align-self: stretch;
+color: var(--gray-900, #111928);
+border-radius: var(--rounded-lg, 8px);
+
+/* leading-tight/text-sm/font-normal */
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 125%; /* 17.5px */
+}
+.smallinput{
+ display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: var(--2, 8px);
+flex: 1 0 0;
+}
+.smallinputtext{
+    color: var(--gray-900, #111928);
+
+/* text-sm/font-medium */
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 150%; /* 21px */
+align-self: stretch;
+}
+.smallinput1{
+ display: flex;
+align-items: center;
+gap: var(--25, 10px);
+align-self: stretch;
+border-radius: var(--rounded-lg, 8px);
+
+}
+
+.description{
+    display: flex;
+flex-direction: column;
+align-items: center;
+gap: var(--2, 8px);
+align-self: stretch;
+}
+.descriptiontext{
+    align-self: stretch;
+    color: var(--gray-900, #111928);
+
+/* text-sm/font-medium */
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 150%; /* 21px */
+}
+.desinp{
+    display: flex;
+padding: var(--3, 12px) var(--4, 16px);
+align-items: flex-start;
+gap: var(--25, 10px);
+align-self: stretch;
+border-radius: var(--rounded-lg, 8px);
+border: 1px solid var(--gray-300, #D1D5DB);
+background: var(--gray-50, #F9FAFB);
+}
+.cheak{
+ display: flex;
+padding: var(--0, 0px) var(--px, 1px);
+flex-direction: column;
+align-items: flex-start;
+gap: var(--2, 8px);
+align-self: stretch;
+}
+.cheakinp{
+    color: var(--gray-900, #111928);
+    align-self: stretch;
+/* text-sm/font-medium */
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 150%; /* 21px */
+}
+.cheakitems{
+display: flex;
+padding: var(--0, 0px);
+align-items: flex-start;
+gap: var(--4, 16px);
+}
+.cheakitem{
+display: flex;
+align-items: center;
+gap: var(--2, 8px);
+border-radius: 4px;
+}
+.buttondiv{
+display: flex;
+align-items: center;
+gap: var(--4, 16px);
+align-self: stretch;
+}
+.Dropdiv{
+ display: flex; 
+justify-content: center; 
+align-items: center; 
+width: 100%; 
+}
+.Dropzone{
+    display: flex; 
+flex-direction: column; 
+justify-content: center; 
+align-items: center; 
+border-radius: 0.5rem; 
+border-width: 2px; 
+border-color: #D1D5DB; 
+border-style: dashed; 
+width: 100%; 
+height: 16rem; 
+background-color: #F9FAFB; 
+cursor: pointer; 
+}
+.Dropzone:hover{
+    background-color: #F3F4F6; 
+}
+.Dropdiv{
+    display: flex; 
+padding-top: 1.25rem; 
+padding-bottom: 1.5rem; 
+flex-direction: column; 
+justify-content: center; 
+align-items: center; 
+}
+.Dropdiv1{
+    margin-bottom: 1rem; 
+width: 2rem; 
+height: 2rem; 
+color: #6B7280; 
+}
+.p{
+    margin-bottom: 0.5rem; 
+font-size: 0.875rem;
+line-height: 1.25rem; 
+color: #6B7280; 
+
+}
+.p1{
+    font-size: 0.75rem;
+line-height: 1rem; 
+color: #6B7280; 
+}
+.button1{
+display: flex;
+padding: var(--25, 6px) var(--5, 14px);
+justify-content: center;
+align-items: center;
+gap: var(--2, 6px);
+border-radius: var(--rounded-lg, 6px);
+}
+@media only screen and (max-width: 768px){
+    .formInput{
+        display: flex;
+        flex-direction: column;
+        gap: var(--4, 16px);
+        align-self: stretch;
+        }
+}
+@media only screen and (max-width:550px) {
+    .cheakitems{
+        flex-direction: column;
+    }
+    .button1{
+        padding: 0px;
+    }
+}
+.dragbox{
+    display: flex;
+height: 228px;
+flex-direction: column;
+justify-content: space-between;
+align-items: center;
+align-self: stretch;
+border-radius: 8px;
+border: 2px dashed var(--gray-200, #E5E7EB);
+background: var(--gray-50, #F9FAFB);
+}
+.productImage{
+    align-self: stretch;
+    color: var(--gray-900, #111928);
+
+/* text-sm/font-medium */
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 150%; /* 21px */
+}
+.productdiv{
+    display: flex;
+padding: var(--0, 0px);
+align-items: flex-start;
+gap: var(--4, 16px);
+align-self: stretch;
+}
+.dropbox{
+display: flex;
+padding: var(--0, 0px);
+flex-direction: column;
+align-items: center;
+gap: var(--2, 8px);
+}
+.imga{
+width: var(--3, 17px);
+height: var(--3, 17px);
+}
+.dfg{
+    display: flex;
+padding: var(--0, 0px);
+flex-direction: column;
+align-items: flex-start;
+gap: var(--3, 12px);
+align-self: stretch;
+}
+.delete{
+    height: 20px;
+    width: 20px;
+    color: white;
+}
